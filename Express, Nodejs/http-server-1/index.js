@@ -9,7 +9,7 @@ const app = express(); // we create an instance of the express library - we call
 const port = 3000;
 
 app.get('/', function(req, res) {
-    res.send('Hello Worldbc'); // callback func - this cbfn will run whenever some1 try to hit ur bcknd server
+    res.send('Hello World'); // callback func - this cbfn will run whenever some1 try to hit ur bcknd server
 })
 
 app.listen(port, function() {
@@ -22,3 +22,5 @@ app.listen(port, function() {
 
 
 // TODO : create a todo app that lets users store todos on the server
+// to change the express server itself whenever u chng in the file -> npm install nodemon
+// npx nodemon index.js

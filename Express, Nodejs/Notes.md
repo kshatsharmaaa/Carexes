@@ -65,7 +65,7 @@ header : authentication info - cookies
 body : whenever u send a req u ask it to do something eg what is 2+22 (usually in json)
 method: what kind of req u are sending
 do u want to put some data on the server : POST
-do u want to put get data on the server : GET
+do u want to put get data from the server : GET
 also PUT, DELETE
 
 ## common status codes
