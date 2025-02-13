@@ -14,4 +14,4 @@ pW: Yb3LYCWSdqJSZPGX
 we can use extension for vs code
 but harkirat told to connect via compass so we can download it locally
 use url to connect via aplication
-my mongo url ready: mongodb+srv://kshatsharmaaa:<db_password>@cluster0.4s20m.mongodb.net/
+my mongo url ready: check env
