@@ -70,7 +70,7 @@ function log2() {
 }
 
 function logWhatsPresent(fn) {
-  fName();
+  fn();
 }
 logWhatsPresent(log2);
 

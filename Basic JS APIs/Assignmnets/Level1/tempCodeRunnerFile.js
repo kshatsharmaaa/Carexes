@@ -1,8 +1,9 @@
-function forEachExample(arr) {
+function sortExample(arr) {
   console.log("Original Array:", arr);
 
-  arr.forEach(function(item, index) {
-    console.log(item, index);
+  arr.sort(function(a, b) {
+    return a - b;
   });
+  console.log("After sort:", arr);
 }
-forEachExample([1, 2, 3]);
+sortExample([5, 2, 3, 4, 1]);
